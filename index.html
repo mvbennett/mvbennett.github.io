@@ -8,45 +8,57 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Michael Bennett</h1>
+  </header>
+  <div class="container">
     <div class="bio-block">
-      <h3>Ruby on Rails | JavaScript | React | Node | ExpressJS</h3>
+      <h3><span class="main-skill">Ruby on Rails</span> | <span class="main-skill">JavaScript</span> | <span class="main-skill">React</span> | <span class="main-skill">Node</span> | <span class="main-skill">ExpressJS</span></h3>
       <p>Full stack web developer in NYC.</p>
     </div>
     <h2>Projects</h2>
-    <div class="project-card">
-      <h3>
-        Abandonya
-      </h3>
-      <p>
-        Rent the house of your dreams or nightmares
-      </p>
-      <p>
-        Project Lead
-      </p>
-    </div>
-    <div class="project-card">
-      <h3>
-        My Game Shelf
-      </h3>
-      <p>
-        Manage all the games that you own and want
-      </p>
-      <p>
-        Front end manager
-      </p>
-    </div>
-    <div class="project-card">
-      <h3>
-        Photofolio
-      </h3>
-      <p>
-        An easy reactive way to display years of photography (in progress)
-      </p>
-      <p>
-        Personal project
-      </p>
+    <a href="https://abandonya.herokuapp.com/" target="_blank">
+      <div class="project-card" style="background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.7)), url('Abandonya.png');background-size: cover;">
+        <div>
+          <h3>
+            Abandonya
+          </h3>
+          <p class="subtitle">
+            Rent the house of your dreams or nightmares
+          </p>
+          <p class="role">
+            Project Lead
+          </p>
+        </div>
+      </div>
+    </a>
+    <a href="https://mygameshelf.online" target="_blank">
+      <div class="project-card" style="background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.7)), url('MyGameShelf.png');background-size: cover;">
+        <div>
+          <h3>
+            My Game Shelf
+          </h3>
+          <p class="subtitle">
+            Manage all the games that you own and want
+          </p>
+          <p class="role">
+            Front end manager
+          </p>
+        </div>
+      </div>
+    </a>
+    <div class="project-card" style="background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.7)), url('');background-size: cover;">
+      <div>
+        <h3>
+          Photofolio
+        </h3>
+        <p class="subtitle">
+          An easy reactive way to display years of photography (in progress)
+        </p>
+        <p class="role">
+          Personal project
+        </p>
+      </div>
     </div>
     <h2>
       Technical Skills
