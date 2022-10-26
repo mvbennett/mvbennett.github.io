@@ -58,7 +58,13 @@ header {
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px;
-  margin: 8px 0;
-  display: flex;
-  justify-content: space-between;
+  margin: 8px auto;
+  display: grid;
+  column-gap: 10%;
+  grid-template-columns: repeat(auto-fill, 100px);
+}
+
+.skill-logo {
+  height: 100%;
+  width: 100%;
 }
