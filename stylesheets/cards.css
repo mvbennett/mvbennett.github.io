@@ -8,7 +8,7 @@
 }
 
 .project-photo {
-  width: 40%;
+  width: 40vw;
   height: 100%;
   background-size: cover;
   border-radius: 4px;
@@ -79,6 +79,12 @@
 }
 
 @media (max-width: 1200px) {
+  .project-info {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 800px) {
   .project-card {
     flex-direction: column;
   }
