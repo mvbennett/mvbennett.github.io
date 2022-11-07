@@ -1,21 +1,31 @@
 .project-card {
-  border: 1px solid black;
-  border-radius: 5px;
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
   margin: 10px 0;
   text-align: center;
   height: 50vh;
-  color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.project-card:hover {
+.project-photo {
+  width: 40%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.project-photo:hover {
   opacity: 0.7;
 }
 
+.project-info {
+  flex-grow: 2;
+}
+
 .subtitle {
-  color: rgb(200, 200, 200);
+  color: rgb(100, 100, 100);
 }
 
 .role {
