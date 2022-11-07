@@ -16,10 +16,6 @@
   border-radius: 4px;
 }
 
-.project-photo:hover {
-  opacity: 0.7;
-}
-
 .project-info {
   flex-grow: 2;
 }
@@ -29,7 +25,7 @@
 }
 
 .role {
-  color: rgb(200, 0, 0);
+  color: rgb(87, 0, 0);
   font-weight: bold;
 }
 
