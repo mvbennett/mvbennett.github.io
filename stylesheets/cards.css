@@ -104,6 +104,16 @@
   }
 }
 
+@media (max-width: 419px) {
+  .bio-photo img {
+    width: 350px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
 .skill-logo {
   height: 100%;
   width: 100%;
