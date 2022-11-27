@@ -33,6 +33,15 @@
   border-bottom: 1px solid black;
 }
 
+.stack {
+  margin: 8px 0;
+}
+
+.stack-skill {
+  width: 32px;
+  height: 32px;
+}
+
 .subtitle {
   color: rgb(100, 100, 100);
 }
