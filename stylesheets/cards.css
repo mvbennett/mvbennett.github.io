@@ -17,6 +17,12 @@
   -moz-box-shadow: 2px 2px 11px 1px rgba(0,0,0,0.4);
 }
 
+.project-photo:hover {
+  box-shadow: 4px 4px 11px 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 4px 4px 11px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 4px 11px 1px rgba(0,0,0,0.5);
+}
+
 .project-info {
   flex-grow: 2;
   display: flex;
@@ -129,4 +135,8 @@
 .skill-logo {
   height: 100%;
   width: 100%;
+}
+
+.github-logo:hover {
+  opacity: .7;
 }
