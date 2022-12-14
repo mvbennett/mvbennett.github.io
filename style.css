@@ -1,6 +1,7 @@
 @import 'stylesheets/cards.css';
 @import 'stylesheets/hero.css';
 @import 'stylesheets/fonts.css';
+@import 'node_modules/aos/dist/aos.css';
 
 body {
   margin: 0;
