@@ -251,7 +251,7 @@ var Projects = function Projects(_ref) {
     myGameShelf: {
       name: 'My Game Shelf',
       img: '../../assets/images/MyGameShelf.png',
-      url: 'https://mygameshelf.herokuapp.com',
+      url: 'https://mvbgameshelf.herokuapp.com',
       description: 'Manage all the games that you own and want',
       role: 'Lead Developer and Front End Developer',
       github: 'https://github.com/mvbennett/my-game-shelf',
